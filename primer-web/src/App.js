@@ -10,9 +10,9 @@ function App() {
     <div className="App">
       <Header />
       <Hero 
-        title="Grow your skills, define your future"
-        subtitle="Presenting Academy on the first standard of the Future. We work you that app is full in the playground for tomorrow."
-        buttonText="LEARN MORE"
+        title="NaturaSkinCare"
+        subtitle="Productos skincare elaborados con ingredientes 100% naturales y orgánicos."
+        buttonText="Ver más"
       />
     </div>
   );

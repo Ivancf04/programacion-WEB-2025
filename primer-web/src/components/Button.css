@@ -9,13 +9,26 @@
   transition: all 0.3s ease;
 }
 
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
 .btn-primary {
-  background-color: #fff;
-  color: #667eea;
+  background-color: #388659;
+  color: #ffffff;
 }
 
 .btn-primary:hover {
-  background-color: #f8f9fa;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: #30774e;
+  
+}
+
+.btn-secondary {
+  background-color: #ffffff;
+  color: #388659;
+}
+
+.btn-secondary:hover {
+  background-color: #e9eeeb;
 }

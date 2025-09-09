@@ -5,8 +5,13 @@ import './Header.css';
 const Header = () => {
   return (
     <header className="header">
-      <div className="container">
-        <div className="logo">Quest</div>
+      <div className="containerHead">
+        <div className="logo">NaturaSkinCare</div>
+        <div className='opciones'>
+          <h2>Inicio</h2>
+          <h2>Nosotros</h2>
+          <h2>Productos</h2>
+        </div>
       </div>
     </header>
   );

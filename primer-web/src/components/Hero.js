@@ -9,7 +9,13 @@ const Hero = ({ title, subtitle, buttonText }) => {
       <div className="container">
         <h1>{title}</h1>
         <p>{subtitle}</p>
-        <Button text={buttonText} />
+        <div className='buttonCont'>
+          <Button text={buttonText} variant={"primary"}/>
+          <Button text={buttonText} variant={"secondary"}/>
+        </div>
+      </div>
+      <div className='container2'>
+        <img src='/Presentacion.png' alt='Imagen de productos de skincare' />  
       </div>
     </section>
   );

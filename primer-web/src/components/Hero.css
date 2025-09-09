@@ -1,9 +1,13 @@
 /* components/Hero.css */
 .hero {
-  padding: 4rem 0;
+  display: flex;
+  flex: 1;
   text-align: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  align-items: center;
+  min-height: max-content;
+  color: #388659;
+
+  padding-top: 5%;
 }
 
 .hero h1 {
@@ -15,4 +19,26 @@
   font-size: 1.2rem;
   max-width: 800px;
   margin: 0 auto 2rem;
+}
+
+.container {
+  width: 50%;
+  padding-left: 10%;
+}
+
+.container2 {
+  width: 50%;
+  padding-right: 10%;
+}
+
+.buttonCont{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+img {
+  width: 80%;
+  background-color: rgba(128, 128, 128, 0.24);
+  border-radius: 15px;
 }
